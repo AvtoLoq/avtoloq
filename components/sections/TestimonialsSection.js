@@ -33,7 +33,7 @@ export default function TestimonialsSection() {
               className="relative bg-white/5 backdrop-blur-sm border border-white/10 rounded-2xl p-6 lg:p-7 card-hover group"
             >
               {/* Quote mark */}
-              <div className="absolute top-5 right-6 text-5xl font-display text-white/5 select-none leading-none">"</div>
+              <div className="absolute top-5 right-6 text-5xl font-display text-white/5 select-none leading-none">&ldquo;</div>
 
               {/* Stars */}
               <div className="flex gap-1 mb-4">
