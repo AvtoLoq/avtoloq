@@ -1,7 +1,7 @@
 'use client'
 import { useState, useEffect } from 'react'
 import Link from 'next/link'
-import { ChevronLeft, Clock, Calendar, Share2, Bookmark, BookmarkCheck, Play, Zap, Shield, Users, DollarSign } from 'lucide-react'
+import { ChevronLeft, Clock, Calendar, Share2, Bookmark, Play, Zap, Shield, Users, DollarSign } from 'lucide-react'
 import Header from '@/components/layout/Header'
 import Footer from '@/components/layout/Footer'
 import MobileNav from '@/components/layout/MobileNav'
@@ -130,7 +130,7 @@ function DesktopLayout({ post, lang, t, title, excerpt, category, content, catMe
               <button onClick={() => setSaved(v => !v)}
                 className="flex items-center gap-1.5 px-3 py-2 rounded-xl text-xs font-medium transition-all"
                 style={{ border: '1px solid rgba(255,255,255,0.1)', background: 'rgba(255,255,255,0.05)', color: 'rgba(255,255,255,0.6)' }}>
-                {saved ? <BookmarkCheck className="w-3.5 h-3.5" style={{ color: '#3b82f6' }} /> : <Bookmark className="w-3.5 h-3.5" />}
+                {saved ? <Bookmark className="w-3.5 h-3.5 fill-blue-500" style={{ color: '#3b82f6' }} /> : <Bookmark className="w-3.5 h-3.5" />}
                 {saved ? 'Saxlandı' : 'Saxla'}
               </button>
               <button onClick={handleShare}
@@ -293,7 +293,7 @@ function MobileLayout({ post, lang, t, title, excerpt, category, content, catMet
                 <button onClick={() => setSaved(v => !v)}
                   className="ml-auto flex items-center gap-1.5 px-3 py-1.5 rounded-xl text-[12px] font-medium transition-all active:scale-95"
                   style={{ border: '1px solid rgba(255,255,255,0.1)', background: 'rgba(255,255,255,0.05)', color: 'rgba(255,255,255,0.6)' }}>
-                  {saved ? <BookmarkCheck className="w-3.5 h-3.5" style={{ color: '#3b82f6' }} /> : <Bookmark className="w-3.5 h-3.5" />}
+                  {saved ? <Bookmark className="w-3.5 h-3.5" style={{ color: '#3b82f6' }} /> : <Bookmark className="w-3.5 h-3.5" />}
                   {saved ? 'Saxlandı' : 'Saxla'}
                 </button>
               </div>
