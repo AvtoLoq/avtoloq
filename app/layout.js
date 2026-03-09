@@ -15,7 +15,7 @@ const dmSans = DM_Sans({
 })
 
 export const metadata = {
-  title: 'AutoServis — Azərbaycanın №1 Avto Platforması',
+  title: 'Avtoloq — Azərbaycanın №1 Avto Platforması',
   description: 'Ustalar, avtoservislər, ehtiyat hissə mağazaları — hamısı bir yerdə.',
 }
 

@@ -72,7 +72,7 @@ export default function HeroSection() {
     { label: t.nav.masters,  href: '/masters',    icon: Wrench     },
     { label: t.nav.services, href: '/services',   icon: Building2  },
     { label: t.nav.shops,    href: '/shops',      icon: ShoppingBag },
-    { label: t.nav.blog,     href: '/blog',       icon: BookOpen   },
+    { label: t.nav.blog,     href: '/blogs',       icon: BookOpen   },
   ]
 
   const stats = [
