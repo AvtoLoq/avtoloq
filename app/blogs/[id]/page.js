@@ -362,7 +362,7 @@ function MobileLayout({ post, lang, t, title, excerpt, category, content, catMet
         style={{ paddingBottom: 'max(1rem, env(safe-area-inset-bottom))' }}>
         <div className="absolute inset-x-0 bottom-0 h-32 pointer-events-none"
           style={{ background: 'linear-gradient(to top, #151515 0%, rgba(21,21,21,0.9) 60%, transparent 100%)' }} />
-        <div className="relative flex items-center gap-3">
+        {/* <div className="relative flex items-center gap-3">
           <Link href="/blogs"
             className="flex-1 h-14 flex items-center justify-center rounded-2xl font-bold text-[14px] text-white active:scale-[0.98] transition-all"
             style={{ background: '#252525', border: '1px solid rgba(255,255,255,0.08)' }}>
@@ -374,7 +374,7 @@ function MobileLayout({ post, lang, t, title, excerpt, category, content, catMet
             <Share2 className="w-4 h-4" />
             {copied ? 'Kopyalandı!' : 'Paylaş'}
           </button>
-        </div>
+        </div> */}
       </div>
 
       <MobileNav />
