@@ -28,7 +28,7 @@ export default function Footer() {
                 <Car className="w-5 h-5 text-white" strokeWidth={2.5} />
               </div>
               <span className="font-display font-800 text-xl">
-                Auto<span className="text-brand-400">Servis</span>
+                Avto<span className="text-brand-400">Loq</span>
               </span>
             </Link>
             <p className="text-gray-400 text-sm leading-relaxed max-w-sm">
