@@ -13,7 +13,6 @@ export default function HomePage() {
     <div className="min-h-screen">
       <Header />
       <main className="page-enter">
-        dasdasdsa
         <HeroSection />
         <BrandsMarquee />
         <CategoriesSection />
