@@ -1,0 +1,8 @@
+#!/bin/sh
+echo "Checking lint..."
+npm run lint
+
+echo "Checking build..."
+npm run build
+
+echo "All checks passed, committing..."
